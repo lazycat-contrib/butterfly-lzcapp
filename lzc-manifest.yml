@@ -1,0 +1,17 @@
+application:
+  subdomain: butterfly
+  background_task: true
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://butterfly:80/
+
+services:
+  butterfly:
+    # linwooddev/butterfly:v2.3.0
+    image: docker.1ms.run/linwooddev/butterfly:v2.3.0

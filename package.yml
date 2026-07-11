@@ -1,0 +1,19 @@
+package: app.czyt.butterfly
+version: 2.3.0
+name: Butterfly
+description: 高效简洁手绘笔记工具
+min_os_version: 1.5.0
+homepage: https://github.com/LinwoodDev/Butterfly
+author: LinwoodDev
+
+permissions:
+  required:
+    - net.internet
+
+locales:
+  zh:
+    name: Butterfly
+    description: 高效简洁手绘笔记工具
+  en:
+    name: Butterfly
+    description: A powerful, minimalistic, open-source note-taking app
