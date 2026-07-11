@@ -10,8 +10,8 @@ application:
   upstreams:
     - location: /
       backend: http://butterfly:80/
-
 services:
   butterfly:
     # linwooddev/butterfly:v2.3.0
-    image: docker.1ms.run/linwooddev/butterfly:v2.3.0
+    # upstream: linwooddev/butterfly:v2.5.3
+    image: registry.lazycat.cloud/czyt/linwooddev/butterfly:21acaedb0d9a4c52
