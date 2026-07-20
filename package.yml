@@ -1,5 +1,5 @@
 package: app.czyt.butterfly
-version: 2.5.3
+version: 2.5.4
 name: Butterfly
 description: 高效简洁手绘笔记工具
 min_os_version: 1.5.0
