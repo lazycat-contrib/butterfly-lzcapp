@@ -1,4 +1,5 @@
 package: app.czyt.butterfly
+license: AGPL-3.0
 version: 2.6.0
 name: Butterfly
 description: 高效简洁手绘笔记工具
