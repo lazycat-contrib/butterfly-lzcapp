@@ -13,5 +13,5 @@ application:
 services:
   butterfly:
     # linwooddev/butterfly:v2.3.0
-    # upstream: linwooddev/butterfly:v2.6.1
-    image: registry.lazycat.cloud/czyt/linwooddev/butterfly:59f414d72a8027c6
+    # upstream: linwooddev/butterfly:v2.6.2
+    image: registry.lazycat.cloud/czyt/linwooddev/butterfly:b61f717839314f51
